@@ -1,6 +1,6 @@
 # Data Structures - Sorting Assignment
 
-**Student Name:** Jonathan yaron
+**Student Name:** Jonathan yaron, sharon yeruhimovich
 
 ## Selected Algorithms
 1. Selection Sort (ID: 2)
