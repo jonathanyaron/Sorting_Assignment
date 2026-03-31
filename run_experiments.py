@@ -72,9 +72,7 @@ def _partition(arr, low, high):
 
 # Dictionary to map IDs to functions and names
 ALGORITHMS = {
-    1: ("Bubble Sort", None), # Not implemented in this example
     2: ("Selection Sort", selection_sort),
-    3: ("Insertion Sort", None), # Not implemented in this example
     4: ("Merge Sort", merge_sort),
     5: ("Quick Sort", quick_sort)
 }
@@ -160,9 +158,6 @@ def main():
     plt.ylabel("Runtime (seconds)")
     
     for algo_id in args.algorithms:
-        if algo_id not in ALGORITHMS or ALGORITHMS[algo_id][1] is None:
-            print(f"Warning: Algorithm ID {algo_id} is not implemented.")
-            continue
             
         algo_name, algo_func = ALGORITHMS[algo_id]
         print(f"Running experiments for {algo_name}...")
