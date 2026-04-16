@@ -27,4 +27,4 @@ Since Selection Sort has a time complexity of $O(n^2)$, running it on arrays of 
 When running the algorithms on a nearly sorted array with 5% noise:
 1. **Selection Sort:** The runtime did not change significantly. This is because Selection Sort always scans the entire remaining array to find the minimum element, regardless of the initial order of the elements. It remains strict $O(n^2)$.
 2. **Merge Sort:** Maintained its O(n log n) complexity as its divide-and-conquer mechanism splits and merges arrays regardless of their initial sorted state.
-3. **Quick Sort:** Because our implementation uses a randomly selected pivot, we successfully avoided Quick Sort's worst-case scenario ($O(n^2)$) that usually happens on sorted arrays. It performed extremely well, maintaining its fast O(n log n) runtime.
+3. **Quick Sort:** Because our implementation uses a randomly selected pivot, we successfully avoided Quick Sort's worst-case scenario ( $O(n^2)$ ) that usually happens on sorted arrays. It performed extremely well, maintaining its fast O(n log n) runtime.
