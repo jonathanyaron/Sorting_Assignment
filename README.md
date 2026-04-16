@@ -14,9 +14,9 @@
 
 **Explanation:**
 In this graph, we can clearly see the difference in theoretical time complexities. 
-Selection Sort has a time complexity of O(n^2), which is why its runtime grows quadratically (forming a parabola) as the array size increases. On the other hand, Merge Sort and Quick Sort both have an average time complexity of O(n log n), which makes them significantly faster for larger arrays, appearing almost flat compared to Selection Sort at this scale.
+Selection Sort has a time complexity of $O(n^2)$, which is why its runtime grows quadratically (forming a parabola) as the array size increases. On the other hand, Merge Sort and Quick Sort both have an average time complexity of O(n log n), which makes them significantly faster for larger arrays, appearing almost flat compared to Selection Sort at this scale.
 
-Since Selection Sort has a time complexity of O(n^2), running it on arrays of a million elements is impractical and would take an excessive amount of time. We chose the approach of running all algorithms on a shared range of up to 3,000 elements, which allows us to clearly observe the differences in the growth rates of their execution times within a reasonable timeframe.
+Since Selection Sort has a time complexity of $O(n^2)$, running it on arrays of a million elements is impractical and would take an excessive amount of time. We chose the approach of running all algorithms on a shared range of up to 3,000 elements, which allows us to clearly observe the differences in the growth rates of their execution times within a reasonable timeframe.
 
 ---
 
